@@ -1,0 +1,154 @@
+body {
+  background-color: #fff;
+}
+body #box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+body .box-wrapper {
+  background-color: white;
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .box-one,
+body .box-two,
+body .box-three {
+  width: 18%;
+  height: 42%;
+  margin: 2px;
+  padding: 10px;
+  border: 1px #d4d4d4 solid;
+}
+body .box-one .b-one {
+  background-color: #072bb8;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 15px;
+}
+body .box-one h5 {
+  font-family: "BoldItalic";
+  font-size: 14px;
+}
+body .box-one p {
+  font-family: "Raleway-Thin", sans-serif;
+  font-size: 15px;
+}
+body .box-two .b-two {
+  background-color: #ff5733;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 15px;
+}
+body .box-two h5 {
+  font-family: "BoldItalic";
+  font-size: 14px;
+}
+body .box-two p {
+  font-family: "Raleway-Thin", sans-serif;
+  font-size: 15px;
+}
+body .box-three .b-three {
+  background-color: #eebf5c;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 15px;
+}
+body .box-three h5 {
+  font-family: "BoldItalic";
+  font-size: 14px;
+}
+body .box-three p {
+  font-family: "Raleway-Thin", sans-serif;
+  font-size: 15px;
+}
+
+@font-face {
+  src: url(../fonts/Jura-Bold.ttf);
+  font-family: "Jura";
+}
+@font-face {
+  src: url(../fonts/FjordOne-Regular.ttf);
+  font-family: "FjordOne";
+}
+/*---------Muli----------------------*/
+@font-face {
+  src: url(../fonts/Muli-SemiBoldItalic.ttf);
+  font-family: "Muli-SemiBoldItalic";
+}
+@font-face {
+  src: url(../fonts/Muli-BoldItalic.ttf);
+  font-family: "BoldItalic";
+}
+/*-------------------------------*/
+/*---------Rajdhani----------------------*/
+@font-face {
+  src: url(../fonts/Rajdhani-Regular.ttf);
+  font-family: "Rajdhani-Regular";
+}
+@font-face {
+  src: url(../fonts/Rajdhani-Light.ttf);
+  font-family: "Rajdhani-Light";
+}
+/*-------------------------------*/
+@font-face {
+  src: url(../fonts/BungeeHairline-Regular.ttf);
+  font-family: "BungeeHairline";
+}
+@font-face {
+  src: url(../fonts/Roboto-Black.ttf);
+  font-family: "Roboto";
+}
+/*---------'Arimo----------------------*/
+@font-face {
+  src: url(../fonts/Arimo-Regular.ttf);
+  font-family: "Arimo-Regular";
+}
+@font-face {
+  src: url(../fonts/Arimo-Bold.ttf);
+  font-family: "Arimo";
+}
+/*---------FrankRuhlLibre----------------------*/
+@font-face {
+  src: url(../fonts/FrankRuhlLibre-Black.ttf);
+  font-family: "FrankRuhlLibre";
+}
+@font-face {
+  src: url(../fonts/FrankRuhlLibre-Light.ttf);
+  font-family: "FrankRuhlLibre-Light";
+}
+/*---------LATO----------------------*/
+@font-face {
+  src: url(../fonts/Lato-Black.ttf);
+  font-family: "Lato";
+}
+@font-face {
+  src: url(../fonts/Lato-Thin.ttf);
+  font-family: "Lato-thin";
+}
+/*---------Poppins----------------------*/
+@font-face {
+  src: url(../fonts/Poppins-Light.ttf);
+  font-family: "Poppins-light";
+}
+@font-face {
+  src: url(../fonts/Poppins-Medium.ttf);
+  font-family: "Poppins-medium";
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=styles.css.map */
